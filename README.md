@@ -41,4 +41,8 @@ else:
     print("This is not a correct rating, please use universal, pg, 12, 15, 18")
 # Hard-coded code (no user input allowed)
 ```
+- `else` statements catch everything else if the criteria was not met. 
+
+- They will be executed if all the conditions under `if` and `elif` statements are `False`.
+
 !!! In Python, there are no `switch statements` or `case statements`, which you would see in other languages. 
