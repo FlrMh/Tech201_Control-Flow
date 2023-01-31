@@ -1,4 +1,4 @@
-# Guessing game
+# Odd/Even
 
 # Ask user for a number;
 # If the number is odd - print(The number is odd!)
