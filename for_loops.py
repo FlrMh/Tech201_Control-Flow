@@ -2,7 +2,7 @@
 
 # Looping is different depending on the language, yet most of them use a For Loop.
 
-# A For Loop is where you define an iterator number and then cycle through data (list of dictionary, generally speaking) `foreach` entry in that data structure.
+# A For Loop is where you define an iterator number and then cycle through data (list or dictionary, generally speaking) `foreach` entry in that data structure.
 # Creating a For Loop
 
 list_data = [1, 2, 3, 4, 5, 6]
