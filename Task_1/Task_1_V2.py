@@ -51,7 +51,7 @@
 # Creating our function:
 
 def check_age(age):
-    if age.isdigit() and -1 < int(age) < 117:
+    if age.isdigit() and -1 < int(age) < 117: #if they put a valid age
         if int(age) < 12:
             return "You can watch Universal and PG rated movies."
         elif 12 <= int(age) < 15:
@@ -61,8 +61,7 @@ def check_age(age):
         else:
             return "You can watch all types of movies."
     else:
-        age = input("What is your age? Please, introduce it in digits.")
-        check_age(age)
+        input("Please, introduce it again in digits.")
 
 age = input("What is your age?")
 print(check_age(age))
