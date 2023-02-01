@@ -23,6 +23,8 @@ def add(itr):
     num = float(input("number:"))
     total += num
     print(total)
+add(10)
+
 
 
 # Question 2:
