@@ -15,6 +15,15 @@
 # print("Sum of", total_number , "using while loop", sum)
 # print("average of", total_number, "using while loop", average)
 
+# working (no average)
+
+def add(itr):
+  total = 0
+  for n in range(itr):
+    num = float(input("number:"))
+    total += num
+    print(total)
+
 
 # Question 2:
 
@@ -25,6 +34,7 @@
 #     x += 10
 # print(x)
 
+# working version:
 
 print("Factors of 10:")
 x = 0
